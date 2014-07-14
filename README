@@ -1,0 +1,17 @@
+
+
+I have a couple time_tables in this array.
+There are four time_tables that are related to each other in a linear way by their start_location - end_location and start_date - end_date.
+When the first time_table ends, the other time_table starts, and so on.
+
+I want basically to list next schedules (time_tables) from a given train-number. By entering the train number,
+and comparing the end_location with other start_location that share same name and a later date_time.
+From there start looking for the rest of its linear route, the train will get different schedules a long the way)
+The linear data to play with is the train's start- and end-date and its start- and end-location
+
+
+To run:
+
+```
+rspec train_search_spec.rb
+```
